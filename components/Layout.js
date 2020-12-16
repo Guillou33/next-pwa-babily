@@ -9,7 +9,7 @@ export default function Layout({ children, pageTitle }) {
   return (
     <>
       <Head>
-        <title>{pageTitle ? `${pageTitle} - ` : ''}My App</title>
+        <title>{pageTitle ? `${pageTitle} - ` : ''}Babily</title>
       </Head>
       <NextNprogress
         color="#29D"
